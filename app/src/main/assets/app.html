@@ -1,0 +1,25 @@
+<html>
+<body>
+	hello world ！
+	<button type="button" onclick="calls()">calls</button>
+	<button type="button" onclick="callAcdroid()">callAcdroid</button>
+	<button type="button" onclick="jumpActivity()">jumpActivity</button>
+</body>
+<script>
+	function calls(){
+		alert('js弹窗');
+	}
+
+	function callAcdroid(){
+		android.sayHello("lisa");
+	}
+
+	function calcs(radius){
+		return Math.PI * radius * radius;
+	}
+
+	function jumpActivity(){
+		jump.jump();
+	}
+</script>
+</html>
